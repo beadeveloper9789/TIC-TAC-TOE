@@ -9,7 +9,7 @@ on:
 jobs:
   build-analyze-scan:
     name: Build
-    runs-on: [self-hosted]
+    runs-on: ip-172-31-6-252
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
