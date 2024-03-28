@@ -39,7 +39,6 @@ jobs:
         env:
           DOCKER_CLI_ACI: 1
 
-      - name: Image scan
-        run: trivy image hakunamatata2292/tic-tac-toe:latest > trivyimage.txt
+      
 
 
